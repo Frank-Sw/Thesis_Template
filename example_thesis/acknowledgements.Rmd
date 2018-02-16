@@ -1,5 +1,0 @@
----
-output: pdf_document
----
-
-Thank you for reading and good luck. For more information, see [rosannavanhespenresearch.wordpress.com](http://rosannavanhespenresearch.wordpress.com).
