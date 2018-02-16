@@ -1,0 +1,45 @@
+---
+output: pdf_document
+---
+
+\null \vspace{0.5in}
+
+\begin{centering}
+AN EXAMPLE THESIS DONE WITH RMD 
+
+WITH A VERY LONG TITLE
+
+\vspace{1.5cm}
+
+A Dissertation
+
+Submitted to the Faculty
+
+of 
+
+Brainlet University
+
+by
+
+john\_abs
+\vspace{1.5cm}
+
+In partial Fulfillment of the 
+
+Requirements for the Degree 
+
+of
+
+Doctor of Philosophy
+
+\vspace{1.5cm}
+
+May 2019
+
+Brainlet University
+
+Insert Lattitude and Longitude Coordinates Here
+
+\vfill \null
+
+\end{centering}

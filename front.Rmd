@@ -1,0 +1,87 @@
+---
+output: pdf_document
+---
+
+\begin{center}
+\null \vfill
+Dedication
+
+This is to certify that
+
+i. The thesis comprises only my original work except where indicated,
+ii. Due acknowledgement has been made in the text to all other material used.
+
+\vfill \null
+\end{center}
+\newpage
+
+\null \vspace{0.5in}
+\begin{center}
+ACKNOWLDGEMENTS
+\end{center}
+
+
+
+
+\newpage
+
+\null \vspace{0.5in}
+\begin{center}
+PREFACE
+\end{center}
+
+
+\newpage
+
+\null \vspace{0.5in}
+\tableofcontents
+
+\newpage
+\null \vspace{0.5in}
+\addcontentsline{toc}{section}{LIST OF TABLES}
+\listoftables
+
+\newpage
+\null \vspace{0.5in}
+\addcontentsline{toc}{section}{LIST OF FIGURES}
+\listoffigures
+
+\newpage
+
+\null \vspace{0.5in}
+\begin{center}
+\addcontentsline{toc}{section}{SYMBOLS}
+SYMBOLS
+\end{center}
+
+\newpage
+
+\null \vspace{0.5in}
+\begin{center}
+\addcontentsline{toc}{section}{ABBREVIATIONS}
+ABBREVIATIONS
+\end{center}
+
+\newpage
+
+\null \vspace{0.5in}
+\begin{center}
+\addcontentsline{toc}{section}{NOMENCLATURE}
+NOMENCLATURE
+\end{center}
+
+\newpage
+
+\null \vspace{0.5in}
+\begin{center}
+\addcontentsline{toc}{section}{GLOSSARY}
+GLOSSARY
+\end{center}
+
+\newpage
+
+\null \vspace{0.5in}
+\begin{center}
+\addcontentsline{toc}{section}{ABSTRACT}
+ABSTRACT
+\end{center}

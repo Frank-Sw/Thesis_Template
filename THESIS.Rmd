@@ -1,0 +1,77 @@
+---
+output:
+  pdf_document:
+    fig_caption: yes
+    number_sections: yes
+    includes:
+     in_header: test.sty
+bibliography: library.bib
+csl: methods-in-ecology-and-evolution.csl
+subparagraph: true
+urlcolor: black
+linkcolor: black
+fontsize: 12pt
+geometry: margin = 1.2in
+header-includes:
+- \usepackage{placeins}
+- \usepackage{fancyhdr}
+- \usepackage{setspace}
+- \usepackage{chngcntr}
+- \usepackage{microtype}
+- \onehalfspacing
+- \counterwithin{figure}{section}
+- \counterwithin{table}{section}
+---
+
+---
+nocite: | 
+  @Example1999, @Example2000
+...
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.path = 'figures/',
+                      echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+\pagenumbering{gobble}
+
+```{r child = 'titlepage.Rmd'}
+```
+
+\newpage
+\pagenumbering{roman}
+\setcounter{page}{2}
+```{r child = 'front.Rmd'}
+```
+
+\newpage
+\pagenumbering{arabic}
+
+\newpage
+
+```{r child = 'chapter1.Rmd'}
+```
+
+\newpage
+
+```{r child = 'chapter2.Rmd'}
+```
+
+\newpage
+
+```{r child = 'chapter3.Rmd'}
+```
+
+\newpage
+
+```{r child = 'chapter4.Rmd'}
+```
+
+
+
+```{r child = 'appendix.Rmd'}
+```
+
+\newpage
+
+# References

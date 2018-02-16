@@ -1,0 +1,41 @@
+% This file must be saved with UTF-8 encoding, otherwise pandoc will complain
+% for instance about nordic characters.
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{blindtext}
+\usepackage{graphicx}
+
+
+%Table of Contents Formatting
+\usepackage{tocloft}
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\tocloftpagestyle{fancy}
+%%Renaming Sections
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\renewcommand{\listfigurename}{LIST OF FIGURES}
+\renewcommand{\listtablename}{LIST OF TABLES}
+%%Formatting the different titles to be not bold, smaller, and have the necessary page and Figure/Table labels
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsecpagefont}{\normalfont}
+\renewcommand{\cfttoctitlefont}{\hfill \normalsize}
+\renewcommand{\cftaftertoctitle}{\hfill \mbox{} \\[\baselineskip]\mbox{}\hfill{\normalfont Page}}
+\renewcommand{\cftlottitlefont}{\hfill \normalsize}
+\renewcommand{\cftafterlottitle}{\hfill \mbox{} \\[\baselineskip]\mbox{}Table\hfill{\normalfont Page}}
+\renewcommand{\cftloftitlefont}{\hfill \normalsize}
+\renewcommand{\cftafterloftitle}{\hfill \mbox{} \\[\baselineskip]\mbox{}Figure\hfill{\normalfont Page}}
+
+
+%Header Formatting
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\rhead{\thepage}
+\cfoot{}
+
+%%Formatting the Chapter heading so individual documents added as children to the main document
+%%behave as necessary
+% This is really hard :/

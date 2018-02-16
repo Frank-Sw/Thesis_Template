@@ -2,11 +2,28 @@
 output: pdf_document
 ---
 
-# Introduction
+# Introduction\label{label1}
 
-Lorem ipsum dolor sit amet, cu mei dicunt abhorreant, est cu tamquam apeirian eleifend. Noluisse referrentur interpretaris vim cu, laboramus conclusionemque id eos, aperiam feugait eu has. Ea mel probo malis propriae, eum elitr luptatum consequuntur an, audiam scribentur eum in. Animal ocurreret his ea, eam ex debet partem vidisse. Ad has antiopam democritum definitiones, sit labores scaevola ex.
+This is an example introduction. Let's cite someone here [@Author2016]. And in text as well: @Author2013 says that we can cite people in text. Or we can write the name, and than use the citation thingy to print the year: Blabla states something about something [-@Blabla2010]. Or how about multiple citations [@Author2016; @Author2013]. Or we citation with a little of text around it [for example see @Blabla2010, pp. 92-93].
 
-Cu oratio omittantur nec, lobortis mediocrem sententiae cu has. Vix iriure regione eu, sonet essent eleifend ei pro. Est stet utamur te. Veri persecuti sed ut, his an justo option democritum. Vix blandit intellegat ea, sit altera labore oportere at. Sit sale habeo exerci te.
+We can split up the chapter in subsections:
 
-Rebum copiosae complectitur te eos, per ne placerat reprimique. Quo an clita nostro intellegebat, eu pri amet natum malis, vis ei graecis facilisis. Etiam ludus nobis ei sea, eos in reque integre. Cu nam novum vituperata, duo copiosae facilisi id. Vim id propriae suavitate aliquando, nam tritani nostrud ad, pri at probatus facilisis. Et iusto accumsan omittantur est, ut his decore copiosae, fugit accumsan temporibus sit ex.
+## Subsection
 
+For example, this is a subsection of the introduction. We can also make more subsubsections, but they won't be displayed in the table of contents:
+
+### Subsubsection
+
+There you go, a subsubsection. And just for fun:
+
+#### Subsubsubsection
+
+And some text for this subsubsubsection. Let's do another subsection:
+
+## Another subsection
+
+Some text... And finally, a subsection that won't be numbered or shown in the table of contents:
+
+\subsection*{Kind of invisible subsection}
+
+This section  won't be displayed in the table of contents. It also won't be numbered. Now let's move on to the methods.
