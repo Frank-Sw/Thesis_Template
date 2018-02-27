@@ -40,6 +40,5 @@ Brainlet University
 
 Insert Lattitude and Longitude Coordinates Here
 
-\vfill \null
 
 \end{centering}

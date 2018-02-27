@@ -32,11 +32,12 @@ PREFACE
 
 
 \newpage
-
+\setstretch{1}
 \null \vspace{0.5in}
 \tableofcontents
 
 \newpage
+\linespread{1}
 \null \vspace{0.5in}
 \addcontentsline{toc}{section}{LIST OF TABLES}
 \listoftables
@@ -46,8 +47,18 @@ PREFACE
 \addcontentsline{toc}{section}{LIST OF FIGURES}
 \listoffigures
 
-\newpage
 
+\newpage
+\null \vspace{0.5in}
+\addcontentsline{toc}{section}{LIST OF SCHEMES}
+\makeatletter
+ \renewcommand{\cftloftitlefont}{\hfill \normalsize}
+ \renewcommand{\cftafterloftitle}{\hfill \mbox{} \\[\baselineskip]\mbox{}Scheme\hfill{\normalfont Page}}
+\makeatother
+\listofschemes
+
+\newpage
+\setstretch{1.5}
 \null \vspace{0.5in}
 \begin{center}
 \addcontentsline{toc}{section}{SYMBOLS}

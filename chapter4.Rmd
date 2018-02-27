@@ -6,3 +6,8 @@ output: pdf_document
 
 Finally, the discussion. We had a look at headings and citations in the introduction, an equation in the methods and figures, r code and tables in the results. That's it. What will follow now is the list of tables, list of figures, appendices and references.
 
+
+\begin{scheme}
+\includegraphics[width=5in]{figure1.png}
+\caption{Test Scheme 1!}
+\end{scheme}

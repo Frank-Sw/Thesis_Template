@@ -16,7 +16,7 @@ Variable_t has a value of: `r variable_t`. Note the use of backticks instead of 
 
 And of course, let's make a plot. You can refer to it in text as normal: see figure \ref{irisgraph}.
 
-```{r fig.cap = "Figure caption. \\label{irisgraph}", fig.height=4, fig.width=4}
+```{r fig.cap = "Figure caption. \\label{irisgraph}", fig.height=6, fig.width=6}
 plot(iris)
 ```
 

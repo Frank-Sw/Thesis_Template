@@ -11,16 +11,14 @@ subparagraph: true
 urlcolor: black
 linkcolor: black
 fontsize: 12pt
-geometry: margin = 1.2in
 header-includes:
 - \usepackage{placeins}
 - \usepackage{fancyhdr}
-- \usepackage{setspace}
 - \usepackage{chngcntr}
 - \usepackage{microtype}
-- \onehalfspacing
 - \counterwithin{figure}{section}
 - \counterwithin{table}{section}
+- \counterwithin{scheme}{section}
 ---
 
 ---
